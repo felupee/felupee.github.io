@@ -17,8 +17,19 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#port">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
+        </div>
+        <div class="menu-mobile">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">About</a></li>
+                <li><a href="#port">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+        <div class="btn-mobile">
+            <ion-icon name="grid-outline"></ion-icon>
         </div>
     </header>
 
@@ -127,7 +138,18 @@
             </div>
         </div>
     </section>
+    <footer>
+        <span>Copyright 2022 <a href="">FRONT</a> Todos os Direitos Reservados</span>
+    </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".btn-mobile").click(function(){
+                $(".menu-mobile").slideToggle("slow")
+            })
+        })
+    </script>
 </body>
 </html>
