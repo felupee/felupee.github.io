@@ -2,7 +2,11 @@
 
 body {
     background-image: url(../../CREATIVE_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 
 ul, li {
     margin: 0px;
@@ -14,9 +18,32 @@ ul, li {
 }
 
 .header {
-    text-align: center;
+    align-items: center;
+    justify-content: space-around;
     background: rgba(0,0,0,0.5);
     padding: 20px;
+}
+
+header ul{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+header ul li{
+    padding: 0 20px;
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+header ul li a:hover{
+    color: #156fc3;
 }
 
 /* PROJETO */
@@ -24,7 +51,7 @@ ul, li {
 
 div {
     border: 1px solid transparent; /* define uma borda transparente */
-    box-shadow: 0 0 5px blue; /* adiciona uma sombra azul */
+    box-shadow: 0 0 5px rgb(65, 65, 255); /* adiciona uma sombra azul */
     margin: 0 auto; /* centraliza o div horizontalmente */
     width: 80%; /* define a largura do div */
     /* adicione outras propriedades de estilo conforme necessário */
@@ -36,6 +63,12 @@ div {
 div p {
     color: white; /* torna o texto do parágrafo branco */
     margin: 20px; /* adiciona uma margem ao redor do conteúdo do parágrafo */
+    padding: 5px;
+}
+
+div p code {
+    font-family: monospace;
+    color: rgb(255, 208, 208);
 }
 
 div h2 {

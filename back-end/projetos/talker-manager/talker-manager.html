@@ -10,30 +10,99 @@
 </head>
 <body>
     <header class="header">
-        <ul class ="menu">
-            <li>Conheceça um pouco mais sobre o projeto:</li>
+        <ul>
+            <li><a href="../../../index.html">Home</a></li>
+            <li><a href="#sobre">GITHUB</a></li>
+            <li><a href="https://felupee.github.io/#contact">DUVIDAS</a></li>
+            <li><a href="#" onclick="history.go(-1); return false;">Voltar</a></li>
         </ul>
     </header>
 
     <div>
-      <h2 style="font-size: 35px">Proposta do projeto:</h2>
-      <p>eu quero que todo o conteudo desse paragrafo esteja centralizado, tudo bem? 
-        eu quero que todo o conteudo desse paragrafo esteja centralizado, tudo bem?
-        eu quero que todo o conteudo desse paragrafo esteja centralizado, tudo bem?
-        eu quero que todo o conteudo desse paragrafo esteja centralizado, tudo bem?
-        eu quero que todo o conteudo desse paragrafo esteja centralizado, tudo bem?
-        eu quero que todo o conteudo desse paragrafo esteja centralizado, tudo bem?
-        eu quero que todo o conteudo desse paragrafo esteja centralizado, tudo bem?
-        eu quero que todo o conteudo desse paragrafo esteja centralizado, tudo bem?
-        eu quero que todo o conteudo desse paragrafo esteja centralizado, tudo bem?
-        eu quero que todo o conteudo desse paragrafo esteja centralizado, tudo bem?
-        eu quero que todo o conteudo desse paragrafo esteja centralizado, tudo bem?
-        eu quero que todo o conteudo desse paragrafo esteja centralizado, tudo bem?
-        eu quero que todo o conteudo desse paragrafo esteja centralizado, tudo bem?
-        eu quero que todo o conteudo desse paragrafo esteja centralizado, tudo bem?
-        eu quero que todo o conteudo desse paragrafo esteja centralizado, tudo bem?
+      <h2 style="font-size: 35px">Introdução:</h2>
+      <p style="text-indent: 45px;">Aqui, é possível visualizar o projeto em pleno funcionamento e explorar suas 
+        principais funcionalidades por meio de gifs e printscreens. Caso deseje 
+        experimentar o projeto em sua própria máquina, basta selecionar a opção "GITHUB" 
+        no menu superior, onde encontrará um tutorial detalhado sobre a instalação do 
+        projeto em seu ambiente local. Lembre-se de me contar o que achou do projeto, 
+        ficaria imensamente feliz em receber o seu feedback. Ou caso tenha alguma dúvida
+        sobre o projeto, você pode clicar em "DUVIDAS" e me mandar uma mensagem diretamente 
+        ou ir em HOME, lá você encontra todas as minhas redes sociais.
+      </p>
+
+      <h2 style="font-size: 35px">Projeto Talker Manager:</h2>
+      <p style="text-indent: 45px;">O projeto "Talker Manager" é um sistema de gerenciamento de palestrantes e suas 
+        respectivas palestras desenvolvido no início do meu aprendizado sobre APIs.
+        O sistema tem como objetivo permitir que os organizadores de eventos gerenciem
+        facilmente informações sobre palestrantes e palestras, incluindo dados pessoais 
+        dos palestrantes e a data do evento.
+        O projeto foi desenvolvido utilizando tecnologias como Node.js, Express, módulo 
+        fs entre outras tecnologias. Os usuários podem se autenticar no sistema e realizar 
+        operações como criar, atualizar e excluir informações de palestrantes e palestras.
+      </p>
+
+      <h2 style="font-size: 35px">Ferramentas:</h2>
+      <h2 style="font-size: 20px">Thunder Client:</h2>
+      <p style="text-indent: 45px;">Para mostrar o devido funcionamento do projeto, eu utilizo o Thunder Client, que é
+        uma extensão para o Visual Studio Code que permite realizar solicitações HTTP 
+        diretamente do editor de código. Com essa ferramenta, eu consigo testar APIs 
+        e rotas sem a necessidade de um navegador ou de outras ferramentas externas.
+        Para conhecer mais sobre o Thunder Client, 
+        <a href="https://www.thunderclient.com/" target="_blank" style="color: rgb(112, 112, 253);">clique aqui</a>.
+      </p>
+      <h2 style="font-size: 20px">Docker:</h2>
+      <p style="text-indent: 45px;">Eu utilizei o Docker para criar um ambiente isolado para minha aplicação Node.js. 
+        Com o Docker Compose, eu empacotei minha aplicação e todas as suas dependências em 
+        containers, permitindo que eles fossem configurados e executados juntos.
+        Para usar o Docker Compose, eu criei um arquivo docker-compose.yml, que é um 
+        arquivo de configuração que especifica todos os serviços necessários para minha 
+        aplicação. Cada serviço é definido em seu próprio container, com suas próprias 
+        configurações e dependências. O serviço da aplicação Node.js usou uma imagem 
+        baseada em Node.js, com o código-fonte da minha aplicação sendo montado como um 
+        volume.
+        Eu executei o comando docker-compose up para iniciar o container no docker-compose.yml. 
+        Isso iniciou minha aplicação Node.js. <br>
+        <p style="text-indent: 45px;" >Usando o Docker Compose, eu pude empacotar minha aplicação e suas dependências em um
+        container isolado, garantindo que ela funcionasse da mesma forma em qualquer ambiente. 
+        Além disso, o Docker Compose me permitiu configurar facilmente vários serviços e 
+        iniciar todos eles com apenas um comando, tornando o processo de configuração e 
+        execução da minha aplicação muito mais fácil e eficiente.
+        Para conhecer mais sobre o Docker, 
+        <a href="https://www.docker.com/" target="_blank" style="color: rgb(112, 112, 253);">clique aqui</a>.
+      </p>
+      </p>
+
+      <h2 style="font-size: 35px">Executando Projeto:</h2>
+      <p style="text-indent: 45px;">Na página principal do projeto, é possível encontrar uma estrutura completa dos endpoints, onde é disponibilizado um CRUD abrangente. Além disso, há a presença de middlewares específicos para a verificação de erros e para validar os dados enviados pelos usuários.
+
+      Essa estruturação dos endpoints permite uma fácil interação com o sistema, e garante a eficiência no processamento dos dados. Já os middlewares presentes, além de aumentar a segurança da aplicação, garantem que todas as informações enviadas pelos usuários estejam em conformidade com as especificações exigidas pelo sistema.
+        
+      Todas essas funcionalidades foram implementadas com o objetivo de proporcionar uma experiência de uso agradável e segura para os usuários do sistema. 
+      </p>
+      <img style="width: 70%;" src="rotass.png" alt="Descrição do GIF">
+
+      <p style="text-indent: 45px;">Como você pode ver, existem vários middlewares de verificação no código acima, um deles é middleware <code>tokenValidation.</code> que é basicamente uma função que valida um token de autorização em uma requisição HTTP. Ao fazer login o usuário manda informações para o sistema como email e password, na qual os mesmo também passam por uma verificação dos campos através dos seus respectivos middlewares. Se os campos estiverem de acordo, é gerado um token para o usuário, na qual o mesmo também é retornado. Acompanhe abaixo o funcionamento:
+      </p>
+      <img src="login.gif" alt="Realizando login">
+
+      <p style="text-indent: 45px;">Ao fazer login, o usuário pode utilizar o token gerado para fazer requisição em outra rota, como cadastrar um palestrantes usando o método POST. Ao requisitar a rota para cadastrar um palestrante, ela passa por uma verificação do token através do middleware <code>tokenValidation.</code> A primeira coisa que essa função faz é extrair o token de autorização do cabeçalho da requisição, usando a propriedade <code>authorization</code> do objeto headers de req. Se o token não for encontrado, a função retorna um erro com um status 401 (Não autorizado) e uma mensagem de erro <code>"Token não encontrado".</code>
+
+      Se o token for encontrado, a função verifica se ele é uma string válida e tem pelo menos 16 caracteres de comprimento. Se o token não for válido, a função retorna outro erro com o mesmo status 401 e uma mensagem de erro <code>"Token inválido".</code> Observe abaixo a função completa: 
+      </p>
+      <img style="width: 70%;" src="tokenvalidation.png" alt="função tokenValidation">
+
+      <p style="text-indent: 45px;">Se o token for válido, a função chama a função <code>next()</code> para passar o controle para a próxima função na cadeia de middlewares. Então, resumindo, essa função <code>tokenValidation</code> é uma função de middleware que valida um token de autorização em uma requisição HTTP, retornando um erro se o token não for encontrado ou for inválido, ou passando o controle para a próxima função na cadeia de middlewares se o token for válido. Com isso, as outras rotas podem ser chamadas normalmente, como por exemplo a rota que retorna todos os palestrantes, observe no GIF abaixo:
       </p>
       <img src="get-talker.gif" alt="Descrição do GIF">
+
+      <p style="text-indent: 45px;">Todo o CRUD completo do projeto tem suas respectivas funções no arquivo <code>talkers.js</code> do projeto. No arquivo existe funções de leitura e escrita usando o módulo <code>fs</code>, que é um módulo integrado do Node.js que me permite interagir com o sistema de arquivos do meu sistema operacional. Ele me permite criar, ler, gravar, atualizar e excluir arquivos e diretórios.
+
+      Com o <code>fs</code>, eu posso usar funções como readFile() para ler o conteúdo de um arquivo e writeFile() para gravar conteúdo em um arquivo. Abaixo você pode ver as funções de leitura e escrita do meu projeto:
+      </p>
+      <img style="width: 70%;" src="readandwhite.png" alt="funções de leitura e escrita">
+
+      <p style="text-indent: 45px;">Esse é um geral do meu projeto, um projeto simples, contudo, bem executado. tenho outro projeto com estrutura de organização melhor. Como eu falei no início, essa é apenas a minha primeira API criada ao longo de toda a minha carreira acadêmica. Caso você queira ver melhor o projeto, assim como outras funções que eu não mostrei nesse resumo, volto a convidar você para visitar esse projeto no github, clicando <a href="https://www.docker.com/" target="_blank" style="color: rgb(112, 112, 253);">aqui</a> ou na opção GITHUB no menu dessa página.
+        </p>
     </div>
 
 </body>
