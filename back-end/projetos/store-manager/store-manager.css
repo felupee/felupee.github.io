@@ -58,6 +58,7 @@ div {
     margin-top: 20px; /* adiciona 20 pixels de espaço acima do div */
     text-align: center; /* centraliza todo o conteúdo dentro da div */
     padding: 20px; /* adiciona 20px de padding ao redor do conteúdo interno */
+    backdrop-filter: blur(5px);
   }
   
 div p {
