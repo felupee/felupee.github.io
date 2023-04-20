@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;900&display=swap');
+
+body {
+    background-image: url(CREATIVE_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+
+/* PROJETOS */
+
+
+
+.flexbox {
+    padding-top: 30px;
+   display: flex; 
+   flex-wrap: wrap;
+   margin: 0 auto;
+   justify-content: space-evenly;
+}
+
+.flexbox .filha1 {
+    position: relative;
+    width: 900px;
+    height: 645px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* adicionado */
+    box-shadow: 0 0 10px 0 rgba(21,111,195,0.5);
+    transition: 0.4s ease;
+}
+
+.flexbox .filha2 {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox .filha2 a {
+    text-decoration: none;
+    z-index: 9;
+    position: absolute;
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: rgba(10, 71, 129, 0.5);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+}
+
+.flexbox .filha2 img {
+    max-width: 98%; 
+    height: auto;
+}
+
+.flexbox .filha2 a:hover {
+    background-color: rgba(6, 42, 80, 0.8);
+}
+
+p {
+    text-align: justify;
+    padding-bottom: 30px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 6rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+}
+
+.flexbox .filha2 button {
+    padding: 10px 20px;
+    
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: rgba(21,111,195,0.5);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
