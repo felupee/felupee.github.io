@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jogoTrivia.css">
+    <link href="https://unpkg.com/tailwindcss@%5E1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Jogo Trivia</title>
+</head>
+<body>
+    <header class="header">
+        <ul>
+            <li><a href="../../../index.html">Home</a></li>
+            <li><a href="https://github.com/felupee/JogoTrivia" target="_blank">GITHUB</a></li>
+            <li><a href="https://felupee.github.io/#contact">DUVIDAS</a></li>
+            <li><a href="#" onclick="history.go(-1); return false;">Voltar</a></li>
+        </ul>
+    </header>
+
+    <div>
+      <h2 style="font-size: 35px">Introdução:</h2>
+      <p style="text-indent: 45px;">Aqui é possível visualizar o projeto em pleno funcionamento e explorar suas principais funcionalidades por meio de printscreens e gifs. Caso deseje executar o projeto em sua própria máquina ou queira ver detalhes sobre linguagens e habilidades usadas, basta selecionar a opção "GITHUB" no menu superior, onde encontrará detalhes sobre a instalação do projeto em seu ambiente local. Lembre-se de me contar o que achou do projeto, ficarei imensamente feliz em receber o seu feedback. Ou caso tenha alguma dúvida sobre o projeto, você pode clicar em "DUVIDAS" e me mandar uma mensagem diretamente ou ir em HOME, lá você encontra todas as minhas redes sociais.
+      </p>
+
+      <h2 style="font-size: 35px">Projeto Jogo Trivia:</h2>
+      <p style="text-indent: 45px;">Esse projeto é um jogo de perguntas e respostas baseado no jogo Trivia (tipo um show do milhão americano rs) utilizando React e Redux, na qual as perguntas e respostas são resgatadas de uma API. O jogo tem um sistema de login para identificar o usuário que tá jogando e poder salvar a sua pontuação ao final do jogo. Cada rodada tem 5 perguntas aleatórias tendo um tempo máximo de 30 segundos. Eu te conto tudo em detalhes abaixo.
+      </p>
+
+      <h2 style="font-size: 35px">Executando Projeto:</h2>
+      <p>Ao executar o aplicativo o usuário tem que fazer login no sistema, para assim poder ser registrado no ranking ao final do jogo.</p>
+      <img style="width: 80%;" src="login.gif" alt="tela de login">
+      
+      <p>Após clicar em <code>Play</code>, o jogador é redirecionado para a tela das perguntas. O jogador tem até 30 segundos para responder a pergunta, caso contrário, a pergunta é considerada como errada. A cada resposta correta é adicionado pontos ao <code>Score</code> do jogador. A fórmula para cálculo dos pontos por pergunta é: <code>10 + (timer * dificuldade)</code>, onde timer é o tempo restante no contador de tempo e dificuldade é <code>hard: 3, medium: 2, easy: 1</code>, dependendo da pergunta. Exemplo: Se no momento da resposta correta o timer estiver contando 17 segundos, e a dificuldade da pergunta é 2 (média), a pontuação deve ser: <code>10 + (17 * 2) = 44</code>. Observe uma jogatina abaixo: </p>
+      <img style="width: 80%;" src="jogatina.gif" alt="jogatina">
+
+      <p>Note que o jogador só pode passar para uma próxima pergunta quando responder a que tá na tela. Ao responder as 5 perguntas é exibido para o jogador um feedback da sua pontuação final e quantos acertos ele teve. Além de ter uma mensagem dinâmica falando se o jogador foi bem ou mal. Com isso, o jogador pode jogar novamente ou ir para o Ranking. Vou jogar novamente com um outro nome para ter mais de um jogador no raking final.</p>
+      <img style="width: 80%;" src="ranking.gif" alt="ranking">
+
+      <p>Como você observou, eu tirei a mesma pontuação de antes, acertando apenas uma questão, contudo, caso um jogador tenha mais pontuação que outro, ele vai tá a frente do raking.Você também pode jogar e testar o projeto, caso queira conhecer o jogo por trás da tela, volto a te convidar para visitar o repositório do projeto no github, basta clicar <a href="https://github.com/felupee/JogoTrivia" target="_blank" style="color: rgb(112, 112, 253);">aqui</a>
+      </p>
+    </div>
+
+</body>
+</html>
