@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;900&display=swap');
+
+body {
+    background-image: url(../../CREATIVE_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+header ul{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+header ul li{
+    padding: 0 20px;
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+header ul li a:hover{
+    color: #156fc3;
+}
+
+/* PROJETO */
+
+
+div {
+    border: 1px solid transparent; /* define uma borda transparente */
+    box-shadow: 0 0 5px rgb(65, 65, 255); /* adiciona uma sombra azul */
+    margin: 0 auto; /* centraliza o div horizontalmente */
+    width: 80%; /* define a largura do div */
+    /* adicione outras propriedades de estilo conforme necessário */
+    margin-top: 20px; /* adiciona 20 pixels de espaço acima do div */
+    text-align: center; /* centraliza todo o conteúdo dentro da div */
+    padding: 20px; /* adiciona 20px de padding ao redor do conteúdo interno */
+    backdrop-filter: blur(5px);
+  }
+  
+div p {
+    color: white; /* torna o texto do parágrafo branco */
+    margin: 20px; /* adiciona uma margem ao redor do conteúdo do parágrafo */
+    padding: 5px;
+}
+
+div p code {
+    font-family: monospace;
+    color: rgb(255, 208, 208);
+}
+
+div h2 {
+    color: white; /* torna o texto do parágrafo branco */
+    margin: 20px; /* adiciona uma margem ao redor do conteúdo do parágrafo */
+    text-align: left; /* alinha o texto do h2 à esquerda */
+}
+
+img {
+    display: block; /* torna a imagem um bloco para poder alinhar horizontalmente */
+    margin: 0 auto; /* centraliza a imagem horizontalmente */
+    max-width: 100%; /* garante que a imagem não exceda a largura da div */
+    height: auto; /* mantém a proporção da imagem */
+  }
+
+p {
+    text-align: justify;
+    padding-bottom: 30px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 6rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+}
+
+.flexbox .filha2 button {
+    padding: 10px 20px;
+    
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: rgba(21,111,195,0.5);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
